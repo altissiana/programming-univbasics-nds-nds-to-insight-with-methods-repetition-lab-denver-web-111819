@@ -37,11 +37,6 @@ def total_gross(source)
   list = list_of_directors(source)
   totals = directors_totals(source)
   
-  for i in 0...list.length do
-    name = list[i]
-    sum += totals[name]
-  end
-  
   list.each do |name|
     sum += totals[name]
   end
