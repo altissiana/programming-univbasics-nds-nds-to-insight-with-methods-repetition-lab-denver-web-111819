@@ -27,7 +27,7 @@ end
 def list_of_directors(source)
   directors = []
   source.each do |director|
-  directors.push(director[:name])
+    directors.push(director[:name])
   end
   directors
 end
